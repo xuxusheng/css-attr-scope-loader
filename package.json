@@ -1,6 +1,6 @@
 {
   "name": "css-attr-scope-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "webpack-loader，给css文件中选择器添加上自定义属性选择器，达到隔离作用域目的。",
   "main": "index.js",
   "scripts": {
@@ -17,14 +17,8 @@
   },
   "homepage": "https://github.com/xuxusheng/css-attr-scope-loader#readme",
   "devDependencies": {
-    "css-loader": "^0.23.1",
     "css-selector-tokenizer": "^0.6.0",
-    "extract-text-webpack-plugin": "^1.0.1",
-    "html-webpack-plugin": "^2.22.0",
     "loader-utils": "^0.2.15",
-    "postcss": "^5.1.1",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.1",
-    "webpack-dev-server": "^1.14.1"
+    "postcss": "^5.1.1"
   }
 }
