@@ -1,6 +1,6 @@
 {
   "name": "css-attr-scope-loader",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "webpack-loader，给css文件中选择器添加上自定义属性选择器，达到隔离作用域目的。",
   "main": "index.js",
   "scripts": {
