@@ -4,7 +4,7 @@
   "description": "webpack-loader，给css文件中选择器添加上自定义属性选择器，达到隔离作用域目的。",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine"
   },
   "repository": {
     "type": "git",
@@ -17,9 +17,11 @@
   },
   "homepage": "https://github.com/xuxusheng/css-attr-scope-loader#readme",
   "devDependencies": {
+    "jasmine": "^2.4.1"
+  },
+  "dependencies": {
     "css-selector-tokenizer": "^0.6.0",
-    "jasmine": "^2.4.1",
     "loader-utils": "^0.2.15",
-    "postcss": "^5.1.1"
+    "postcss": "^5.1.2"
   }
 }
