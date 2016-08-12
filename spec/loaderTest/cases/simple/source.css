@@ -1,0 +1,15 @@
+div {
+    width: 100px;
+}
+p {
+    color: red;
+}
+.class {
+    display: block;
+}
+#id {
+    margin: 0;
+}
+div[xusheng] {
+    height: 10px;
+}

@@ -1,0 +1,15 @@
+div[scope] {
+    width: 100px;
+}
+p[scope] {
+    color: red;
+}
+.class[scope] {
+    display: block;
+}
+#id {
+    margin: 0;
+}
+div[xusheng][scope] {
+    height: 10px;
+}

@@ -1,0 +1,5 @@
+div.class[scope] + div#div + div[xusheng][scope] > div:hover[scope] ~ div#div.xusheng::after,
+div:hover[scope]::before,
+div[scope]::after ~ #id > .xu[scope] {
+    width: 100px;
+}

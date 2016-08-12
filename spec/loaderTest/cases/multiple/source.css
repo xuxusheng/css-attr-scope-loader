@@ -1,0 +1,5 @@
+div.class + div#div + div[xusheng] > div:hover ~ div#div.xusheng::after,
+div:hover::before,
+div::after ~ #id > .xu {
+    width: 100px;
+}

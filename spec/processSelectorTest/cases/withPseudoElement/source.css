@@ -1,0 +1,4 @@
+div::before div::after,
+div.class::before,
+div#id::after,
+div ~ div + div.class::after
