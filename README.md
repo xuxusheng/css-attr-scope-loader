@@ -1,6 +1,12 @@
 # css-attr-scope-loader
 webpack的自定义loader模块，给css文件中选择器加入自定义属性以起到隔离作用域的作用
 
+### 测试
+
+采用 jasmine 进行单元测试，测试文件在 `spec` 目录中。
+
+`npm install` 安装依赖包后，在项目根目录下输入 `jasmine` 命令进行测试。
+
 ### 自定义 attr-loader
 tools/attr-loader 文件夹中
 
