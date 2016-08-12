@@ -1,0 +1,4 @@
+div[scope]::before div[scope]::after,
+div.class[scope]::before,
+div#id::after,
+div[scope] ~ div[scope] + div.class[scope]::after
