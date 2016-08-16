@@ -17,5 +17,5 @@ module.exports = function (source) {
 
     var newCss = loader(source, query)
 
-    callback(null, newCss)
+    callback(null, newCss + '\r\n')
 }
