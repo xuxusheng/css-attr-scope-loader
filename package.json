@@ -1,10 +1,10 @@
 {
   "name": "css-attr-scope-loader",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "description": "webpack-loader，给css文件中选择器添加上自定义属性选择器，达到隔离作用域目的。",
   "main": "index.js",
   "scripts": {
-    "test": "jasmine"
+    "test": "istanbul cover node_modules/jasmine/bin/jasmine.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/xuxusheng/css-attr-scope-loader#readme",
   "devDependencies": {
+    "istanbul": "^0.4.4",
     "jasmine": "^2.4.1"
   },
   "dependencies": {
