@@ -17,7 +17,7 @@ tools/attr-loader 文件夹中
 > 如果没有接受到scope参数，则不做任何处理。
 
 **例如：**
-```
+```css
 a#content.active:first-child .cla > div::first-line[data-content],
 #selectTwo:hover + #id2,
 .group::after {
@@ -32,7 +32,7 @@ a:not(:visited) {
 ```
 
 执行 webpack 命令后生成的文件中：
-```
+```css
 a#content.active:first-child .cla[xusheng] > div::first-line[data-content][xusheng],
 #selectTwo:hover + #id2,
 .group::after[xusheng] {
